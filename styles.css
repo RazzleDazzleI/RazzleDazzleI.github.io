@@ -71,7 +71,7 @@ a:hover {
   margin: 0 auto;
   padding: 60px 0;
 }
-.about {
+.about, .index {
   text-align: center;
 }
 .post-author img {
