@@ -51,3 +51,12 @@ p, h1 {
 .carousel-control-prev-icon:hover {
   transform: translateY(-50%) scale(1.5);
 }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.mb-3.mb-md-0.text-body-secondary {
+  filter: invert(1);
+}
