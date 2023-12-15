@@ -60,3 +60,8 @@ footer {
 .mb-3.mb-md-0.text-body-secondary {
   filter: invert(1);
 }
+.right-align {
+ margin-right: 2%;
+}
+```
+```
