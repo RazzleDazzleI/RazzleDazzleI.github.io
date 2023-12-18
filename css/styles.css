@@ -63,5 +63,7 @@ footer {
 .right-align {
  margin-right: 2%;
 }
-```
-```
+sr-only {
+  display:none
+}
+
