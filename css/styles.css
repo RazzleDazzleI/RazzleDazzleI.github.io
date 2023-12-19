@@ -63,7 +63,17 @@ footer {
 .right-align {
  margin-right: 2%;
 }
-sr-only {
-  display:none
+/* Styles for social media links */
+.right-align a {
+  display: flex;
+  align-items: center;
 }
 
+.right-align a svg {
+  margin-right: 5px; /* Adjust as needed for spacing between icon and text */
+}
+
+/* Hide the text visually but keep it for screen readers */
+.right-align a span.sr-only {
+  display: none;
+}
