@@ -60,9 +60,7 @@ footer {
 .mb-3.mb-md-0.text-body-secondary {
   filter: invert(1);
 }
-.right-align {
- margin-right: 2%;
-}
+
 /* Styles for social media links */
 .right-align a {
   display: flex;
@@ -70,12 +68,12 @@ footer {
 }
 
 .right-align a svg {
-  margin-right: 5px; /* Adjust as needed for spacing between icon and text */
+  margin-right: 6px; /* Adjust as needed for spacing between icon and text */
 }
 
 /* Hide the text visually but keep it for screen readers */
 .right-align a span.sr-only {
-  position: absolute;
+  
   width: 1px;
   height: 1px;
   margin: -1px;
