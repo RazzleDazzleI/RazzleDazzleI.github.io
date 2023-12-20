@@ -55,11 +55,12 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-}
 
-  text-body-secondary {
-    color: white;
-  }
+}
+.mb-3.mb-md-0.text-body-secondary {
+  filter: invert(1);
+  
+}
 
 /* Styles for social media links */
 .right-align a {
