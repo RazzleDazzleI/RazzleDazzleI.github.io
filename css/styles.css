@@ -1,5 +1,4 @@
 
-
 body {
   margin: 0;
   min-height: 100vh;
@@ -57,9 +56,10 @@ footer {
   bottom: 0;
   width: 100%;
 }
-.mb-3.mb-md-0.text-body-secondary {
-  filter: invert(1);
-}
+
+  text-body-secondary {
+    color: white;
+  }
 
 /* Styles for social media links */
 .right-align a {
