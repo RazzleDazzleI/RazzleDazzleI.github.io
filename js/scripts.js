@@ -15,7 +15,7 @@ document.getElementById("guestForm").addEventListener("submit", function (event)
             <div class="col font-weight-bold">${name}</div>
             <div class="col">
             <div class="col">
-            <div class="float-right">${new Date().toLocaleDateString()}</div>
+            <div class="float-right" style="margin-left: 50%; margin-right: 0;">${new Date().toLocaleString()}</div>
         </div>
             </div>
         </div>
