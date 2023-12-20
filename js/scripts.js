@@ -9,6 +9,7 @@ document.getElementById("guestForm").addEventListener("submit", function (event)
     // Create a new message element
     const newMessage = document.createElement("div");
     newMessage.className = "container border border-dark rounded bg-light";
+    newMessage.style.marginTop = "20px"; // Add top margin
     newMessage.innerHTML = `
         <div class="row border-bottom border-dark" style="background-color: #2B3035; color: white;">
             <div class="col font-weight-bold">${name}</div>
