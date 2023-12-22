@@ -149,6 +149,10 @@ footer {
   height: 200px; /* Fixed height for all card bodies */
 }
 
+h1 {
+  font-size: 5rem; /* Adjust the size as needed */
+  font-weight: bold;
+}
 
 
 
