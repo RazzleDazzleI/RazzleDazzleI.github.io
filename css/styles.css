@@ -126,6 +126,28 @@ footer {
   color: #DCF5FF; /* Light blue text on hover */
   border-color: #28be7f; /* Border color on hover */
 }
+.img-scale-75 {
+  width: 75%; /* Sets the width to 75% of the containing element */
+  height: auto; /* Maintains the aspect ratio of the image */
+  display: block; /* To center the image */
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Standardize the size of the card images */
+.card-img-top {
+  height: 200px; /* Fixed height for all images */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  width: 100%; /* Make the image cover the full width of the card */
+}
+
+/* Standardize the size of the card bodies */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distributes space evenly inside the card */
+  height: 200px; /* Fixed height for all card bodies */
+}
+
 
 
 
