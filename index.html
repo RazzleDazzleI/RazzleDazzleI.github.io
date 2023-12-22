@@ -1,68 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Razzle Dazzle</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vibrant.js/1.0.0/Vibrant.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vibrant.js/1.0.0/Vibrant.min.js"></script> -->
     <script src="js/scripts.js"></script>
 </head>
-
 <body>
-    <div class="sticky-top">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand">Razzle The Dazzle</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                More...
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="https://razzledazzlei.github.io">Home</a></li>
-                              <li><a class="dropdown-item" href="https://razzledazzlei.github.io/guest.html">Guest Book</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="https://razzledazzlei.github.io/about.html">About</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true"></a>
-                          </li>
-                           </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit" style="color: #30D98A;">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+  <div class="sticky-top"> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand">Welcome</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://razzledazzlei.github.io/">Home</a>
+           </li> -->
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More...
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://razzledazzlei.github.io">Home</a></li>
+              <li><a class="dropdown-item" href="https://razzledazzlei.github.io/guest.html">Guest Book</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="https://razzledazzlei.github.io/about.html">About</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
+           </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" style="color: #30D98A;">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<div class="container mt-4">
+  <!-- Hero Section -->
+  <div class="row">
+    <div class="col-lg-12 text-center hero-background">
+      <h1 style="color: white; font-size: 2.5rem; font-weight: bold;">Revolutionize Your Web Presence</h1>
+        <p class="lead">Join hands with Razzle The Dazzle to craft digital experiences that dazzle and delight. Where creativity meets technology, your website dreams come to life.</p>
+        <a class="btn btn-lg btn-custom" href="#contact">Let's Get Started</a>
+
     </div>
-    <div class="container">
+</div>
+
+
+  <!-- Services Section -->
+  <div class="row mt-4" id="services">
+    <div class="col-lg-12">
+        <h2 class="text-center mb-4">Our Services</h2>
         <div class="row">
-            <div class="col-lg-12">
-                <h1>Welcome to Razzle The Dazzle</h1>
-                <p>Embark on a digital journey with us and discover the extraordinary. At Your Company Name, we believe in
-                  more than just creating websites – we craft digital experiences that leave a lasting impression.
-                  Picture this: a blend of innovation, technical prowess, and a generous sprinkle of humor, all tailored
-                  to elevate your online presence.</p>
-              <p>Whether you're taking the leap into a new venture or seeking to breathe new life into your existing
-                  digital space, we've perfected the recipe for success. Our team of creative minds and tech-savvy
-                  wizards is here to turn your digital dreams into reality.</p>
-                <a class="btn btn-primary" href="#contact">Get Started</a>
+            <div class="col-md-4 text-center">
+                <img src="path/to/web-creation-icon.png" alt="Web Creation Icon" class="service-icon">
+                <h3>Web Creation</h3>
+                <p>Create stunning, responsive websites that engage and convert. From idea to execution, we tailor every pixel to your needs.</p>
             </div>
+            <div class="col-md-4 text-center">
+                <img src="path/to/maintenance-icon.png" alt="Maintenance Icon" class="service-icon">
+                <h3>Website Maintenance</h3>
+                <p>Keep your website at peak performance with our comprehensive maintenance services. Regular updates, security checks, and speed optimization.</p>
+            </div>
+            <!-- More services can be added here -->
         </div>
     </div>
+</div>
+
+
+
+  <!-- Portfolio Section -->
+  <div class="row mt-4" id="portfolio">
+    <div class="col-lg-12">
+        <h2 class="text-center mb-4">Our Portfolio</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card" data-bs-theme="dark">
+                    <img src="path/to/project1-image.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Eco-Friendly E-commerce</h5>
+                        <p class="card-text">A vibrant and user-friendly e-commerce platform for an eco-friendly product line, featuring intuitive navigation and a sustainable ethos.</p>
+                        <a href="project-details-1.html" class="btn btn-view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card" data-bs-theme="dark">
+                    <img src="path/to/project2-image.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Innovative Tech Blog</h5>
+                        <p class="card-text">A sleek, modern blog for technology enthusiasts, featuring an engaging design and interactive content elements.</p>
+                        <a href="project-details-1.html" class="btn btn-view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card" data-bs-theme="dark">
+                    <img src="path/to/project3-image.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fitness App Interface</h5>
+                        <p class="card-text">User interface design for a fitness app that combines functionality with motivational elements, encouraging user engagement.</p>
+                        <a href="project-details-1.html" class="btn btn-view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More projects can be added here -->
+        </div>
+    </div>
+</div>
+
+
+
+  <!-- Why Choose Us Section -->
+  <div class="row mt-4">
+    <div class="col-lg-12">
+        <h2 class="text-center mb-4">Why Choose Razzle The Dazzle</h2>
+        <p class="text-center">We don't just build websites; we build digital experiences that resonate. With a blend of creativity, technical expertise, and a dash of humor, we ensure your online presence stands out in the digital crowd.</p>
+        <div class="row text-center">
+          <!-- Key Feature 1 -->
+          <div class="col-md-4 mb-3">
+              <h4>Customized Solutions</h4>
+              <p>Your vision, our creation. Tailored solutions that perfectly fit your business needs and brand personality.</p>
+          </div>
+
+          <!-- Key Feature 2 -->
+          <div class="col-md-4 mb-3">
+              <h4>State-of-the-Art Technology</h4>
+              <p>Embracing the latest in web technologies to deliver fast, secure, and scalable websites.</p>
+          </div>
+
+          <!-- Key Feature 3 -->
+          <div class="col-md-4 mb-3">
+              <h4>Creative & Fun Approach</h4>
+              <p>Inject
+    </div>
+</div>
+
+
+
+  <!-- Blog Highlights Section -->
+  <div class="row mt-4">
+    <div class="col-lg-12">
+        <h2 class="text-center mb-4">Latest Insights</h2>
+        <div class="blog-highlights">
+          <div class="blog-post">
+            <h3>The Future of Web Design: Trends to Watch in 2024</h3>
+            <p>Discover the cutting-edge trends shaping the world of web design. From immersive VR experiences to AI-driven interfaces, find out how the future looks in the digital realm.</p>
+            <a href="path/to/full-article" class="btn btn-outline-secondary">Read More</a>
+        </div>
+        <div class="blog-post">
+          <h3>5 Common Web Development Mistakes and How to Avoid Them</h3>
+          <p>Even the pros make mistakes! Dive into the most common pitfalls in web development and learn how to navigate around them for a seamless, efficient website build.</p>
+          <a href="path/to/full-article" class="btn btn-outline-secondary">Read More</a>
+      </div>
+      <div class="blog-post">
+        <h3>Maximizing User Engagement: Tips for a User-Friendly Website</h3>
+        <p>Engagement is key to website success. Learn how to optimize your site's design and functionality to boost user interaction and satisfaction.</p>
+        <a href="path/to/full-article" class="btn btn-outline-secondary">Read More</a>
+    </div>
+    
+      
+        </div>
+    </div>
+</div>
+
+
+  <!-- Contact Section -->
+  <div class="row mt-4" id="contact">
+      <div class="col-lg-12">
+          <h2>Contact Us</h2>
+          <!-- Contact Form Here -->
+      </div>
+  </div>
+</div>
+
+<!-- Existing Footer Here -->
     <footer class="d-flex flex-wrap justify-content-between align-items-center border-top" style="background-color: #2B3035; position: fixed; bottom: 0; left: 0; width: 100%; height: 50px;">
       <div class="col-md-4  d-flex align-items-center">
         <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>

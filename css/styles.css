@@ -83,6 +83,50 @@ footer {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+/* Custom Button Styles for 'View Project' Buttons */
+.btn-view-project {
+  background-color: #30D98A; /* Teal color, similar to your carousel control icons */
+  color: white; /* White text */
+  border: none; /* No border */
+}
+
+.btn-view-project:hover {
+  background-color: #28be7f; /* A slightly darker shade of teal for hover effect */
+  color: #DCF5FF; /* Light blue color for the text on hover */
+}
+/* Custom styles for inverted color scheme on portfolio cards */
+.card {
+  
+  color: #DCF5FF; /* Light blue text color as per your theme */
+  border: none; /* No border */
+}
+
+.card-title {
+  color: white; /* White color for titles for better readability */
+}
+
+.card-body a.btn-view-project {
+  color: white; /* Teal text color to match the card background */
+  background-color: #30D98A; /* Light blue background */
+  border: none; /* No border */
+}
+
+.card-body a.btn-view-project:hover {
+  background-color: #FF6B6B; /* A different color for hover, maybe a shade from your gradient */
+  color: white; /* White text on hover */
+}
+.btn-custom {
+  background-color: #30D98A; /* Teal background */
+  color: white; /* White text */
+  border: none
+}
+
+.btn-custom:hover {
+  background-color: #28be7f; /* Slightly darker teal for hover */
+  color: #DCF5FF; /* Light blue text on hover */
+  border-color: #28be7f; /* Border color on hover */
+}
+
 
 
 
